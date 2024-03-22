@@ -1,0 +1,20 @@
+package poop6;
+
+/**
+ * Programa que inicializa una persona, e indica que es lo que esta comiendo
+ * @author gerar
+ */
+public class POOP6 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println("Hola Mundo");
+        Persona persona = new Persona ("Emmanuel", 15, "Verde");
+        System.out.println(persona);
+        System.out.println(persona.comer(" Pescado"));
+    }
+   
+}
